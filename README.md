@@ -16,7 +16,7 @@ npm install --save nw
 ```
 
 
-## `package.json`
+## `package.json`
 
 ```json
 {
