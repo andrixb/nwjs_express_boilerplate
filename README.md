@@ -30,7 +30,7 @@ This is what you should see.
 
 ![Express example app](./img/express_example.png)
 
-And modify express app accordingly. 
+And now you can modify the express app accordingly. 
 
 ---
 
