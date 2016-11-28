@@ -1,22 +1,57 @@
 # NWJS package express app
 
+## Option 1 
+
+Clone the repo 
+
+```
+npm install
+```
+
+```
+npm start
+```
+
+This is what you should see. 
+
+[Express example app](./img/express_example.png)
+
+And modify express app accordingly. 
+
+---
+
+## Option 2 
+
+Don't clone the repo, and follow these inscructions from terminal 
+
+- Setup express
+- setup nwjs
+- `package.json` 
+- `index.html`
+
+### Setup express 
+
 express generator
 ```
 npm install express-generator
 ```
 
 boilerplate for express
+
 ```
 express
 ```
 
-install nw js locally
+### Setup nwjs 
+
+Install nw js locally
+
 ```
 npm install --save nw
 ```
 
 
-## `package.json`
+### modify `package.json` for nwjs 
 
 ```json
 {
@@ -47,7 +82,8 @@ npm install --save nw
 ```
 
 
-## `index.html`
+### make `index.html`for nwjs 
+
 Calling ` location.href="http://localhost:3000"` when DOM is ready to load express from server
 
 ```html
@@ -71,6 +107,7 @@ Calling ` location.href="http://localhost:3000"` when DOM is ready to load expre
 </html>
 ```
 
+----
 
 ## mongodb?
 Next up, how to package mongodb in NWJS app?
