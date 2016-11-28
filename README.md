@@ -1,12 +1,26 @@
 # NWJS package express app
 
-## Option 1 
+## Option 1 - Clone the repo
 
 Clone the repo 
 
 ```
+git clone git@github.com:andrixb/nwjs_express_boilerplate.git
+```
+
+cd into the dir 
+
+```
+cd nwjs_express_boilerplate
+```
+
+install dependencies 
+
+```
 npm install
 ```
+
+start test app 
 
 ```
 npm start
@@ -20,16 +34,16 @@ And modify express app accordingly.
 
 ---
 
-## Option 2 
+## Option 2 - follow these instructions from terminal 
 
 Don't clone the repo, and follow these inscructions from terminal 
 
-- Setup express
-- setup nwjs
-- `package.json` 
-- `index.html`
+1. Setup express
+2. setup nwjs
+3. `package.json` 
+4. `index.html`
 
-### Setup express 
+### 1.Setup express 
 
 express generator
 ```
@@ -42,7 +56,7 @@ boilerplate for express
 express
 ```
 
-### Setup nwjs 
+### 2.Setup nwjs 
 
 Install nw js locally
 
@@ -51,7 +65,7 @@ npm install --save nw
 ```
 
 
-### modify `package.json` for nwjs 
+### 3.modify `package.json` for nwjs 
 
 ```json
 {
@@ -82,7 +96,7 @@ npm install --save nw
 ```
 
 
-### make `index.html`for nwjs 
+### 4.make `index.html`for nwjs 
 
 Calling ` location.href="http://localhost:3000"` when DOM is ready to load express from server
 
