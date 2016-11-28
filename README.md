@@ -28,7 +28,7 @@ npm start
 
 This is what you should see. 
 
-[Express example app](./img/express_example.png)
+![Express example app](./img/express_example.png)
 
 And modify express app accordingly. 
 
